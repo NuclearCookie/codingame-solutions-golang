@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	cgreader.RunAndValidateManualPrograms(
+	cgreader.RunStaticPrograms(
 		cgreader.GetFileList("input/input%d.txt", 3),
 		cgreader.GetFileList("output/output%d.txt", 3),
 		true,
