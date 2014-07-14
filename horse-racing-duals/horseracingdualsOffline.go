@@ -29,8 +29,6 @@ func main() {
 						diff = newDiff
 					} else if newDiff < diff {
 						diff = newDiff
-					} else if newDiff == diff {
-						cgreader.Traceln("2 horses with the same strenght diff found!")
 					}
 				}
 				outputString = fmt.Sprintf("%d", diff)
